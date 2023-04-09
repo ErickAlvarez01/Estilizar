@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Testing - Add LocalStorage
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">
+        Profe nose css
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+ <div id="texto">
+   <ion-label>{{recovertext}}</ion-label>
+ </div>
+
+
+  <div id="container">
+
+    <input type="text" [(ngModel)]="receivetext">
+  </div>
+  <div id="boton">
+    <button (click)="print()">Enviar</button>
+  </div>
+</ion-content>

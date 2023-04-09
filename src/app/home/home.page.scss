@@ -1,0 +1,55 @@
+$background-color : rgb(19, 221, 225);
+
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #16fbfb;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#boton {
+  position: absolute;
+
+  left: 20;
+  right:  10;
+  top: 60%;
+  transform: translateY(10%);
+  transform: translateX(30%);
+
+    font-size: 80px;
+    padding: 0px 460px;
+
+
+}
+#texto {
+  position: absolute;
+
+  left: 50;
+  right:  70;
+  top: 10%;
+  transform: translateY(80%);
+  transform: translateX(30%);
+  font-size: 30px;
+    padding: 150px 440px;
+}
